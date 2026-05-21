@@ -1,0 +1,9 @@
+level: large
+batch_size: 40
+detect_stride: 7
+postnms: 0
+pred_iou_thresh: 0.8
+box_nms_thresh: 0.7
+stability_score_thresh: 0.85
+verbose: 0
+save_npy: 0
