@@ -7,3 +7,4 @@ outputs/
 __pycache__
 /checkpoints
 /FlexBench
+.DS_Store
