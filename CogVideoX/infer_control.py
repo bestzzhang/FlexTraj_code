@@ -32,7 +32,7 @@ if __name__ == "__main__":
     
     for i, inputs in enumerate(get_inputs_from_json(args.validation_file, args.test_root)):
         concatenated, vid_name = infer(
-            inputs, vis, pipe, kv_cache=True, num_inference_steps=40
+            inputs, vis, pipe, kv_cache=True, num_inference_steps=50
         )
 
         out_path = os.path.join(args.out_folder, f"{vid_name}.mp4")

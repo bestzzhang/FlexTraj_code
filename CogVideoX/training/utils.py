@@ -408,7 +408,7 @@ def infer(inputs, vis, pipe, visualize_only=False, kv_cache=False, num_inference
                 num_frames=49,
                 use_dynamic_cfg=True,
                 guidance_scale=6.0,
-                generator=torch.Generator(device="cuda").manual_seed(42),
+                generator=torch.Generator(device="cuda").manual_seed(0),
                 cond_maps_dict=cond_maps_dict,
                 height=480,
                 width=720,
